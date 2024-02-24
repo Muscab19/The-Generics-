@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #777;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(219, 219, 215, 0.735);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 235, .3);
+}
+
+.main-nav li {
+    padding: 0 2em;
+}
+
+.main-header {
+    background-image: url("Images/web bg.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    padding-top: 70px;
+    margin: 0;
+    font-size: 5em;
+    font-family: "Metal Mania", system-ui;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large{
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania", system-ui;
+    font-weight: normal ;
+    color: #333;
+    text-align: center;
+    font-size: 3em;
+}
+
+.about-band-image {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgb(79, 169, 189);
+    color: white;
+    padding: .25em 0;
+}
+
+.footer-heading {
+    font-family: "Metal Mania", system-ui;
+    font-size: 3em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container li{
+    flex-grow: 1;
+    text-align:end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 235, .1);
+    border-radius: 10%;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-raw {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-raw:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.tour-date {
+    color:#333;
+    font-weight: bold;
+    width: 16%;
+}
+
+.tour-surgery {
+    width: 20%;
+}
+
+.tour-doctor {
+    width: 14%;
+}
+
+.tour-btn {
+    max-width: 14%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #2D9CDB;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+    
+}
+
+.btn-primary:hover {
+    background-color: blue;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    width: 200px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
